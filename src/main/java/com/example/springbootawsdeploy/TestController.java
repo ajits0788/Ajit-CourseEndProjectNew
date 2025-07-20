@@ -9,11 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @GetMapping("/data")
     public String getData() {
-        return "DATA PAGE";
+        return "Ajit DataPage";
     }
 
     @GetMapping("/message")
     public String getMessage() {
-        return "MESSAGE PAGE";
+        return "Ajit Message";
     }
 }
